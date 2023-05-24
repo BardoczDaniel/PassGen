@@ -1,0 +1,100 @@
+/* General reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+}
+
+/* CONTAINER */
+
+.password-generator-container {
+  background-color: #845ef7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.password-generator {
+  background-color: #7048e8;
+  border: 2px solid #b197fc;
+  padding: 2.4rem 4rem;
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.2), -5px -5px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* INPUTS */
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: relative;
+}
+
+.input-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  position: absolute;
+  cursor: pointer;
+
+  right: 0;
+  transform: translateX(20%);
+}
+
+.password-generator h1 {
+  margin-bottom: 2.4rem;
+}
+
+.length-container {
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.4rem;
+}
+
+.slider {
+  width: 83%;
+}
+
+.settings-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  padding: 1.6rem 0;
+}
+
+.settings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 1.4rem;
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  margin-top: 1.6rem;
+  border: none;
+  background-color: #9775fa;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.2), -5px -5px 12px rgba(0, 0, 0, 0.2);
+}
